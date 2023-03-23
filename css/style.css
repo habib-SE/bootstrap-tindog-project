@@ -1,0 +1,25 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+.container-fluid{
+    padding: 3% 50%;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 5rem;
+    font-weight: bold;
+}
+.navbar{
+    margin-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
