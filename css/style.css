@@ -42,12 +42,11 @@ h3{
 
       
 }
-.iphone{
-    
-}
+
 /* Feature Section*/
 
 .feature{
+    position: relative;
     padding: 7% 15%;
 }
 .feature-box{
@@ -101,4 +100,36 @@ margin: 20px 20px 50px;
 
 .pricing-colum{
     padding: 3% 2%;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 30%;
+    text-align: center;
+}
+.head3{
+    padding-bottom: 5%;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.cta-btn{
+    padding-left: 5px;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.footer-p{
+    padding-top: 2%;
 }
